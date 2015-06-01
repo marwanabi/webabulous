@@ -4,6 +4,10 @@
 
 $(document).ready(function(){ 
 
+$('#particle-slider').hover(function(){
+     $(".hovertexthome").fadeOut(1000);
+});   
+
 $('#toggle').click(function() {
    $(this).toggleClass('active');
    $('#overlay2').toggleClass('open');

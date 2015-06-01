@@ -21,6 +21,14 @@ html {
 
 /*text animation*/
 
+.hovertexthome {
+    position: absolute;
+  color: white;
+  left: 36%;
+  bottom: 10%;
+  font-family: 'MuseoSans700';
+}
+
 
 
 h1{
