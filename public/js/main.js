@@ -84,7 +84,7 @@ $(document).ready(
         cursorcolor: "#ed4523",
         cursorwidth: "10",
         cursorborderradius: "0",
-        zindex:"10",
+        zindex:"1000",
         horizrailenabled:"false",
         autohidemode: "false",
         cursorborder: "0px"
