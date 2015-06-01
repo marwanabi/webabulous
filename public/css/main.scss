@@ -178,6 +178,15 @@ $namespace: true;
     overflow: hidden;
     width: 100vw;
 }
+
+.social-icons ul li a {
+   color: rgba(255, 255, 255, 0.55);
+} 
+
+.social-icons ul li a:hover {
+   color: #0d306b;
+} 
+
 .social-icons-menu {
     width: 30%;
     bottom: 9%;
@@ -245,7 +254,7 @@ $namespace: true;
 /* --------------------------------------- */
 
 .contact-content {
-width: 50%;
+width: 100%;
 font-size: 36px;
 line-height: 40px;
 font-family: 'MuseoSans700';
@@ -253,7 +262,13 @@ color: #ecf0f1;
 height: 100%;
 position: absolute;
 top: 25%;
-left: 25.5%;
+    p {
+        color: white;
+        margin-bottom: 0px;
+    }
+    ul {
+        margin-left: 0px;
+    }
 }
 /*.content:before {
   content: '[';
@@ -278,21 +293,20 @@ left: 25.5%;
   -o-animation: 2s ease-out 0s normal none infinite opacity;
 }*/
 .contact-visible {
-  float: left;
   font-weight: 600;
   overflow: hidden;
   height: 40px;
+    
  p {
 display: inline;
 float: left;
 margin-top: -6px;
-font-family: 'MuseoSans700';     
+font-family: 'MuseoSans700';
 }
 ul {
 font-size: 2rem;
 margin-top: 0;
-padding-left: 84px;
-text-align: left;
+text-align: center;
 list-style: none;
   animation: 20s linear 0s normal none infinite change;
   -webkit-animation: 20s linear 0s normal none infinite change;
@@ -303,6 +317,10 @@ ul li {
   line-height: 40px;
   /*margin: 0;*/
 }
+}
+
+.white {
+    color: white;
 }
 
 @-webkit-keyframes change {
@@ -680,19 +698,23 @@ ul li {
 }
 
 
-.contact-hero-image {
- background-color: #18abe2;
+.contact-hero-image-overlay {
     width: 1280px/1280px * 100%;
     height:104vh;
-    position: relative;
-    top: -1%;
-     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background-image: url(../images/contact-pic.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
-
+.join-hero-image-overlay {
+    width: 1280px/1280px * 100%;
+    background-image: url(../images/webable_jointeam.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 
 /* -------------------------------------- */
 
@@ -764,7 +786,7 @@ ul li {
     100% { opacity:1; }
 }
 .join-hero-image {
-    background-color: #18abe2;
+    background-color: rgba(13,49,107,0.8);
     width: 1280px/1280px * 100%;
     height:104vh;
     position: relative;
@@ -773,7 +795,9 @@ ul li {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  display: inline-block;
+    .join-strong {
+        font-family: "MuseoSans500";
+    }
 }
 
 
@@ -1842,6 +1866,10 @@ font-weight: bold;
     p {
         font-family: "MuseoSans500";
     }
+    span.join-typed-text {
+        font-family: "MuseoSans700";
+        text-transform: none;
+    }
     span.email {
         font-size: 36%;
         text-emphasis: none;
@@ -1865,19 +1893,17 @@ font-weight: bold;
     }
 }
 .contact-box-text {
-    position: absolute;
-    top: 47%;
-    left: 42%;
+    position: relative;
     text-align: center;
-    p,a p,i{
+    width: 100%;
+    padding: 0 25%;
+    top: 50%;
+    p,a{
         color: white;
+        font-family: "MuseoSans500";
        }
     a.drop p {
-    width: 100%;
-    padding: 7% 1%;
-    background-color: white;
-    border-radius: 5px;
-    color: #18abe2;
+    margin: auto;
     }  
 }
 .contact-typed-text {
@@ -1906,7 +1932,7 @@ font-weight: bold;
     100% { opacity:1; }
 }
 .contact-hero-image {
-    background-color: #18abe2;
+    background-color: rgba(9,24,72,0.75);
     width: 1280px/1280px * 100%;
     height:104vh;
     position: relative;
@@ -1921,6 +1947,8 @@ font-weight: bold;
 /***************case-studies*****************/
 .cs-branding-hero {
     height: 100%;
+    width: 100%;
+    overflow-y: hidden;
 }
 .cs-brand-text{
     position: absolute;
@@ -1973,6 +2001,20 @@ font-weight: bold;
   width: 33.333% !important;
   display: block;
   }
+    .end-kas{
+        display: none;
+    }
+    
+    .aarong-large{
+        display: block;
+    }
+    
+    .x-large-6{
+        display: none;
+    }
+    .cm-large-2{
+        display: none;
+    }
 }
 
 .case1 h3{
@@ -1997,7 +2039,8 @@ case h3{
 }
 }
 .branding-image{
-    background: url('http://placehold.it/1280x650')no-repeat center;
+    width: 100%;
+    height: auto;
     width: 1280px/1280px * 100%;
     height:104vh;
     position: relative;
@@ -2265,6 +2308,28 @@ h10{
    width: 198px;
    background: #ed4523;
 }
+.large.button.contact{
+    @extend .large.button;
+    width: 210px;
+    padding: 3%;
+    margin-top: 0px;
+    display: inline-flex;
+    h3 {
+        margin: auto;
+    }
+}
+@media (max-width:600px) {
+    .large.button.contact{
+        padding: 8% 0px;
+        width: 100%;
+    }
+}
+@media (min-width:600px) and (max-width:1000px) {
+    .large.button.contact{
+        padding: 5% 0px;
+    
+    }
+}
 .large.button h3{
     color:#fff;
     font-size: 1rem;
@@ -2343,16 +2408,4 @@ h10{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
-}
-.join-hero-image {
-    background-color: #18abe2;
-    width: 1280px/1280px * 100%;
-    height:104vh;
-    position: relative;
-    top: -1%;
-     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display: inline-block;
 }

@@ -28,6 +28,16 @@ setTimeout(function() {
 }, 3100)
    
 
+ 
+
+ 
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  // tasks to do if it is a Mobile Device
+  setTimeout(function() {
+    $(".logo-home").css('display', 'block');
+}, 4200)
+ 
+}  
 
 
 

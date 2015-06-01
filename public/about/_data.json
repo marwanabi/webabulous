@@ -3,7 +3,7 @@
     "title": "About Us | WebAble Digital | A Digital Marketing Agency In Bangladesh",
     "description": "This is my description",
     "type": "website",
-    "image-url": "",
+    "image-url": "../images/facebook-featured.jpg",
     "url": "http://webable.digital/about"
   }
 }

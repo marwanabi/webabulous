@@ -1,0 +1,46 @@
+
+div.footer
+  div.center-div
+    img(src='../images/Vector-Smart-Object.png')
+    .list
+         ul.text-align  
+                li
+                     a(href="#")
+                        h7 BRAND ELEMENTS &nbsp; | &nbsp;
+                li
+                     a(href="#") 
+                        h7  THE BABLE BLOG   &nbsp; | &nbsp;
+                li 
+                     a(href="#") 
+                        h7 OUR WORK &nbsp; | &nbsp;
+                li
+                     a(href="#") 
+                        h7  OUR SERVICES &nbsp; | &nbsp;
+                li 
+                     a(href="#") 
+                        h7  JOIN THE TEAM 
+                      
+      .social-icons
+        ul.text-align
+            li
+                a(href='#')
+                i.fa.fa-twitter
+            li
+                a(href='#')
+                i.fa.fa-linkedin
+            li
+                a(href='#')
+                i.fa.fa-google-plus
+            li
+                a(href='#')  
+                i.fa.fa-facebook
+            li
+                a(href='#')
+                i.fa.fa-instagram
+            li
+                a(href='#')
+                i.fa.fa-pinterest
+                
+
+    .text-f 
+        h8 ©2015 WEBABLE DIGITAL. ALL RIGHTS RESERVED

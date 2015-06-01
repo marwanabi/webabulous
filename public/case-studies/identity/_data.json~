@@ -1,0 +1,31 @@
+{
+  "index": {
+    "title": "Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
+    "description": "This is my description",
+    "type": "website",
+    "image-url": "",
+    "url": "http://webable.digital/case-studies"
+  },
+ "filmbox": {
+    "title": "I am Real | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
+    "description": "TBy executing a Facebook campaign, WebAble Digital helped build a community of 80,000 juice lovers which drove sales, in-store & on bottleoffun.com.",
+    "type": "website",
+    "image-url": "",
+    "url": "http://webable.digital/case-studies" 
+ },
+ "georges": {
+    "title": "Dell | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
+    "description": "WebAble Digital's campaign for Dell generated 99k clicks on their landing page leading to a whooping 3,800 orders & sales of over BDT 120m in 25 days.",
+    "type": "website",
+    "image-url": "",
+    "url": "http://webable.digital/case-studies" 
+ },
+     "raintree": {
+    "title": "Champs21 | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
+    "description": "WebAble Digital drove 2,601 downloads of the Spelling Bee - 'Spell Champs' app within 30 days with a cost per user acquisition of USD .70 (CPA)",
+    "type": "website",
+    "image-url": "",
+    "url": "http://webable.digital/case-studies" 
+ }
+
+}
