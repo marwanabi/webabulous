@@ -1066,7 +1066,8 @@ hr.about-philosophy {
 }
 
 .process-text {
-    width: 92%;
+    //width: 92%;
+    text-align: center;
 }
 
 .process-text p{
@@ -1080,6 +1081,12 @@ hr.about-philosophy {
     margin-bottom: 0;
           font-size: 1.25rem;
 
+}
+
+@media (max-width:640px) {
+    .wrapper {
+        padding: 0rem 1.8rem !important;        
+    } 
 }
 
 #people {

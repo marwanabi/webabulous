@@ -4,22 +4,56 @@
 
 $(document).ready(function(){ 
 
+ 
+
+$('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay2').toggleClass('open');
+   $('body').toggleClass("overflow-hidden");
+   $('span.top,span.bottom').toggleClass('cross-white');
+   $('.overlay2 .left').toggleClass("hide");     
+ });
+
+$('body').waitForImages(function() {
+    console.log("Image is Up")
+    $(this).show();
+    $(".text").show();    
+});
 
 
-$(function(){
-      $(".element").typed({
-        strings: ["Delivering WebAbulous Interactions"],
-        typeSpeed: 0
-      });
-  });
 
-
-
+//--text-fadeout
 
 
 setTimeout(function() {
-    $(".typed-text").remove();
-}, 5000)
+     $('.text').fadeOut(1000,"linear");
+     $('.hovertexthome').delay(4000).fadeIn(1000);
+}, 3100)
+
+
+  $('#particle-slider').hover(function(){
+     $(".hovertexthome").delay(1000).fadeOut(1000);
+});
+
+ 
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && window.matchMedia("(orientation: portrait)").matches ) {
+  // tasks to do if it is a Mobile Device
+  setTimeout(function() {
+    $(".logo-home").css('display', 'block');
+    $("#particle-slider").css('display', 'none');
+}, 4200)
+ 
+} 
+    
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && window.matchMedia("(orientation: landscape)").matches ) {
+  // tasks to do if it is a Mobile Device
+  setTimeout(function() {
+    //$(".logo-home").css('display', 'block');
+    $("#particle-slider").css('position', 'absolute');
+}, 4200)
+ 
+} 
+
 
 
 
@@ -28,7 +62,7 @@ setTimeout(function() {
 
 setTimeout(function() {
     $("#particle-slider").css('position', 'absolute');
-}, 3999.9)
+}, 4200)
 
 
 

@@ -1,6 +1,11 @@
-
-
 $(document).foundation();
+  $('body').show();
+    NProgress.start();
+    NProgress.inc(0.1);
+    NProgress.inc(0.1);
+    setTimeout(function() { NProgress.done(); $('.fade').removeClass('out'); }, 2500);
+
+new WOW().init();
 
 $('.team-pic').hover(function(){
     $(this).children(".overlay").toggleClass('appear-about');
@@ -77,9 +82,9 @@ $(document).ready(
         scrollspeed: "80",
         mousescrollstep: "80",
         cursorcolor: "#ed4523",
-        cursorwidth: "8",
+        cursorwidth: "10",
         cursorborderradius: "0",
-        zindex:"10",
+        zindex:"1000",
         horizrailenabled:"false",
         autohidemode: "false",
         cursorborder: "0px"
@@ -135,8 +140,8 @@ $("#contact-info.full-width").click(function() {
 
 $(function(){
       $(".join-typed-text").typed({
-        strings: ["If you like coffee", "If you sing in the shower", "If you’re hot",
-"If you stalk people","If you’re feeling the pressure", "If you’re lonely", "If you hate traffic", "If you like cats", "If you’re cranky", "If you like dogs","If you want this to end","If you’re tired","If you like Putin", "If you like minions", "If your phone’s running our of charge", "If you’re just curious", "If you’re bored"],
+        strings: ["If you are a perfectionist", "If you like Putin", "If you are a social butterfly",
+"If you love coffee","If you are  Lord of the Codes", "If you cook like Walter White", "If you stalk people", "If you are a minimalist", "If you like it simple", "If you hate oatmeals","If you are all about the bass","If you read 100 minds per second","If you are secretly rebel", "If you hate Hooli", "If you are oxymoronic", "If you hate your boss", "If you are alignment OCD", "If you like to crunch numbers", "If you are judging us now"],
         loop: true,
         typeSpeed: 50,
         backspace: function(curString, curStrPos){
@@ -158,6 +163,18 @@ $(function(){
       })
  });
 
-$('html,body').animate({
-  scrollTop: $(window.location.hash).offset().top
-}, 5000);
+$("#arrow-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about").offset().top
+    }, 2000);
+});
+
+$(".go-to-map").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact-info").offset().top
+    }, 2000);
+});
+
+// $('html,body').delay(3000).animate({
+//   scrollTop: $(window.location.hash).offset().top
+// }, 5000);

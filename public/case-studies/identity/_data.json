@@ -3,28 +3,28 @@
     "title": "Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
     "description": "This is my description",
     "type": "website",
-    "image-url": "",
+    "imageUrl": "",
     "url": "http://webable.digital/case-studies"
   },
  "filmbox": {
     "title": "Filmbox Studios | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
     "description": "A 'multi-dimensional' identity design by WebAble Digital showcasing videos that just got delicous!",
     "type": "website",
-    "image-url": "../../images/case-cover/webable_casestudy_filmbox-1.jpg",
-    "url": "http://webable.digital/case-studies" 
+    "imageUrl": "http://webable.digital/images/case-cover/webable_casestudy_filmbox-1.jpg",
+    "url": "http://webable.digital/case-studies/identity/filmbox" 
  },
  "georges": {
     "title": "George's La Dolce Vita | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
     "description": "Identity design & social media marketing by WebAble Digital to represent top notch dining in Dhaka.",
     "type": "website",
-    "image-url": "../../images/case-cover/webable_casestudy_georgesladolcevita-1.jpg",
-    "url": "http://webable.digital/case-studies" 
+    "imageUrl": "http://webable.digital/images/case-cover/webable_casestudy_georgesladolcevita-1.jpg",
+    "url": "http://webable.digital/case-studiesidentity/georges" 
  },
  "raintree": {
     "title": "Raintree | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
     "description": "Corporate identity design by WebAble Digital for an upcoming premium boutique hotel in Dhaka.",
     "type": "website",
-    "image-url": "../../images/case-cover/webable_casestudy_raintree-1.jpg",
-    "url": "http://webable.digital/case-studies" 
+    "imageUrl": "http://webable.digital/images/case-cover/webable_casestudy_raintree-1.jpg",
+    "url": "http://webable.digital/case-studiesidentity/raintree" 
  }
 }
