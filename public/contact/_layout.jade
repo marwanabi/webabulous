@@ -14,12 +14,15 @@ html(lang="en")
     link(type="text/css", rel="stylesheet", href="../css/main.css")
     link(rel="stylesheet" href="../css/sup-styles.css")
     link(rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css")  
-    link(rel="stylesheet" href="../css/keyframes.css")
-    link(rel="stylesheet" href="../css/pageTransitions.css")
+    script(src="/js/wow.js")
+    link(rel="stylesheet" href="../css/animate.css")
+    link(rel="stylesheet" href="../css/nprogress.css")
     link(rel='icon', sizes='16x16 32x32 48x48 64x64', href='/images/favicon.ico')
     script(src="/js/nprogress.js")
-    script(src="/js/wow.js")
-    link(rel="stylesheet" href="../css/nprogress.css")
+    link(rel="stylesheet" href="../css/keyframes.css")
+    link(rel="stylesheet" href="../css/pageTransitions.css")
+    script(src="/js/jquery.smoothState.js")
+    script(src="/js/smoothfunctions.js") 
     script(src="https://maps.googleapis.com/maps/api/js")
     //script(src="/js/typed.js")
     meta(name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0")
@@ -35,7 +38,7 @@ html(lang="en")
  body
     != partial("_header-image")    
     .m-scene#main
-        .m-scene.scene_element--fadeinUp
+        .m-right-panel.m-page.scene_element.scene_element--fadein
             .mid-body
                 != yield
     != partial("../_footer")
