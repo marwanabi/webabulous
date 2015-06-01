@@ -1,8 +1,9 @@
 $(document).foundation();
   $('body').show();
     NProgress.start();
-    NProgress.inc(0.2); 
-    setTimeout(function() { NProgress.done(); $('.fade').removeClass('out'); }, 1100);
+    NProgress.inc(0.1);
+    NProgress.inc(0.1);
+    setTimeout(function() { NProgress.done(); $('.fade').removeClass('out'); }, 2500);
 
 new WOW().init();
 
