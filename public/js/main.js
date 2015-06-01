@@ -168,6 +168,12 @@ $("#arrow-link").click(function() {
     }, 2000);
 });
 
-$('html,body').delay(3000).animate({
-  scrollTop: $(window.location.hash).offset().top
-}, 5000);
+$(".go-to-map").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact-info").offset().top
+    }, 2000);
+});
+
+// $('html,body').delay(3000).animate({
+//   scrollTop: $(window.location.hash).offset().top
+// }, 5000);
