@@ -31,13 +31,23 @@ setTimeout(function() {
  
 
  
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && window.matchMedia("(orientation: portrait)").matches ) {
   // tasks to do if it is a Mobile Device
   setTimeout(function() {
     $(".logo-home").css('display', 'block');
+    $("#particle-slider").css('display', 'none');
 }, 4200)
  
-}  
+} 
+    
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && window.matchMedia("(orientation: landscape)").matches ) {
+  // tasks to do if it is a Mobile Device
+  setTimeout(function() {
+    //$(".logo-home").css('display', 'block');
+    $("#particle-slider").css('position', 'absolute');
+}, 4200)
+ 
+} 
 
 
 

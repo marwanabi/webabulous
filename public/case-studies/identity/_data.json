@@ -7,25 +7,24 @@
     "url": "http://webable.digital/case-studies"
   },
  "filmbox": {
-    "title": "filmbox | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
-    "description": "TBy executing a Facebook campaign, WebAble Digital helped build a community of 80,000 juice lovers which drove sales, in-store & on bottleoffun.com.",
+    "title": "Filmbox Studios | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
+    "description": "A 'multi-dimensional' identity design by WebAble Digital showcasing videos that just got delicous!",
     "type": "website",
-    "image-url": "",
+    "image-url": "../../images/case-cover/webable_casestudy_filmbox-1.jpg",
     "url": "http://webable.digital/case-studies" 
  },
  "georges": {
-    "title": "georges | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
-    "description": "WebAble Digital's campaign for Dell generated 99k clicks on their landing page leading to a whooping 3,800 orders & sales of over BDT 120m in 25 days.",
+    "title": "George's La Dolce Vita | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
+    "description": "Identity design & social media marketing by WebAble Digital to represent top notch dining in Dhaka.",
     "type": "website",
-    "image-url": "",
+    "image-url": "../../images/case-cover/webable_casestudy_georgesladolcevita-1.jpg",
     "url": "http://webable.digital/case-studies" 
  },
-     "raintree": {
-    "title": "raintree | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
-    "description": "WebAble Digital drove 2,601 downloads of the Spelling Bee - 'Spell Champs' app within 30 days with a cost per user acquisition of USD .70 (CPA)",
+ "raintree": {
+    "title": "Raintree | Case Studies | WebAble Digital | A Digital Marketing Agency In Bangladesh",
+    "description": "Corporate identity design by WebAble Digital for an upcoming premium boutique hotel in Dhaka.",
     "type": "website",
-    "image-url": "",
+    "image-url": "../../images/case-cover/webable_casestudy_raintree-1.jpg",
     "url": "http://webable.digital/case-studies" 
  }
-
 }

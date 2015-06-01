@@ -27,6 +27,7 @@ h1{
   font-weight: 100;
   letter-spacing: -.45vw !important;
   font-size: 3.5vw;
+  font-size: 3.5vw;
   top: 42%;
   text-align: center;
   color: white;
@@ -432,16 +433,27 @@ h1 {
   top: 44%;
   word-break: keep-all;
   word-spacing: -1px;
-  width: 90%;
+  width: 92%;
+  left: 4%;
+
+}
+    
+@media screen and (min-width: 640px) {
+h1 {
+  letter-spacing: 0.1vw !important;
+  font-size: 5vw;
+  top: 44%;
+  word-break: keep-all;
+  word-spacing: -1px;
+  width: 93%;
   left: 4%;
 
 }
 
-#particle-slider{
-	  display:none;
-	
 }
-.logo-home{
+    
+@media screen and (max-width: 1000px) {
+    .logo-home{
 
   position: absolute;
   width: 60%;
