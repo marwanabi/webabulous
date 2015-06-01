@@ -24,11 +24,16 @@ html {
 .hovertexthome {
     position: absolute;
   color: white;
-  left: 36%;
+  left: 44%;
   bottom: 10%;
   font-family: 'MuseoSans700';
 }
 
+@media (max-width: 900px) {
+  .hovertexthome {
+    display: none;
+  }
+}
 
 
 h1{

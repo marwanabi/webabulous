@@ -4,9 +4,7 @@
 
 $(document).ready(function(){ 
 
-$('#particle-slider').hover(function(){
-     $(".hovertexthome").fadeOut(1000);
-});   
+ 
 
 $('#toggle').click(function() {
    $(this).toggleClass('active');
@@ -29,10 +27,13 @@ $('body').waitForImages(function() {
 
 setTimeout(function() {
      $('.text').fadeOut(1000,"linear");
+     $('.hovertexthome').delay(4000).fadeIn(1000);
 }, 3100)
-   
 
- 
+
+  $('#particle-slider').hover(function(){
+     $(".hovertexthome").delay(1000).fadeOut(1000);
+});
 
  
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && window.matchMedia("(orientation: portrait)").matches ) {
