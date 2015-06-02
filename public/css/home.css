@@ -19,12 +19,18 @@ html {
 
 
 
+
+
+
+
+
 /*text animation*/
 
 .hovertexthome {
-    position: absolute;
+  position: absolute;
   color: white;
-  left: 44%;
+  width: 100%;
+  text-align: center !important;
   bottom: 10%;
   font-family: 'MuseoSans700';
 }
