@@ -2521,7 +2521,7 @@ psParticle.prototype.move = function() {
     function(a) {
         var b, c;
         a(document).ready(function() {
-            d(), e(), a("html").hasClass("cssanimations") && k(), a("#xmas").length > 0 && l(), f(), Modernizr.canvas && a("#particle-slider").length > 0 && g(), h(), i(), j(), m(), a(window).trigger("throttledresize")
+            
         });
         var d = function() {
                 Response.create({

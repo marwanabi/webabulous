@@ -15,7 +15,6 @@ $('#toggle').click(function() {
  });
 
 $('body').waitForImages(function() {
-    console.log("Image is Up")
     $(this).show();
     $(".text").show();    
 });
